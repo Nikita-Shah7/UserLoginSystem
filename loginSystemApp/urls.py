@@ -8,5 +8,5 @@ urlpatterns = [
     path('login',views.logIn,name="login"),
     path('welcome',views.welcome,name="welcome"),
     path('logOut',views.logOut,name="logOut"),
-    # path('<str:nik>',views.notfound,name="notfound")
+    path('<str:nik>',views.notfound,name="notfound")
 ]

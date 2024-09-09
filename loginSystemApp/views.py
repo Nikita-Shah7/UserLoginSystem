@@ -68,7 +68,7 @@ def logOut(request):
     return redirect('/')
 
 
-def notfound(request):
-    return render(request,"404NotFound.html")
+def notfound(request,nik):
+    return HttpResponse("Error 404: Page Not Found")
 
     
